@@ -1,0 +1,9 @@
+#!/bin/bash -e
+
+cd ${HOME}/melpa
+
+# Build all the packages.
+scripts/build_all
+
+# Sleep for an hour before rebuilding.
+sleep 3600
